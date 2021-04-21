@@ -12,7 +12,9 @@ using namespace std;
 void binarnie(int n);
 int main() {
     cout << "Jaką liczbę dziesiętną chcesz zapisać w sposób binarny?\n";
-    int liczba;
+
+    int liczba=1;
+
     cin >> liczba;
     
     cout << liczba << " zapisane binarnie to ";  binarnie(liczba);
