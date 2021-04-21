@@ -13,7 +13,7 @@ void binarnie(int n);
 int main() {
     cout << "Jaką liczbę dziesiętną chcesz zapisać w sposób binarny?\n";
 
-    int liczba=1;
+    int liczba=10034;
 
     cin >> liczba;
     
